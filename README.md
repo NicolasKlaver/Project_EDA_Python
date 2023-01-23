@@ -1,4 +1,4 @@
-# Project_EDA_Python
+# Project EDA Python
 
 In this project I make a Introductory analysis of the Movies dataset. 
 
@@ -28,19 +28,41 @@ And finally leave some topics that may be interesting to review in the future an
 ## Let's review some aspect of the project
 
 
-### Correlation Matrix
-![](http://localhost:8888/view/Repositorios%20Github/Repos_Proyectos%20en%20Proceso/Project_EDA_Python/img/heatmap_correlation.png)
 
+
+### First View of the Data
+![](https://github.com/NicolasKlaver/Project_EDA_Python/blob/main/img/first_data.png)
+
+
+
+### Describe
+![](https://github.com/NicolasKlaver/Project_EDA_Python/blob/main/img/describe_data.png)
 ##### Notes:
+- The studied time lapse goes from 1980 to 2020.
+- The max score is 9.3.
 
 
+
+### Data Types
+![](https://github.com/NicolasKlaver/Project_EDA_Python/blob/main/img/data_types.png)
+##### Notes:
+- Numerical columns: Budget, Gross, Runtime, Score, Votes and RunTime
+- Categorical columns: Company, Country, Director, Genre, Name, Rating, Star and Writer.
+- Date columns: Released and Year.
+
+
+
+### Correlation Matrix
+![](https://github.com/NicolasKlaver/Project_EDA_Python/blob/main/img/heatmap_correlation.png)
+##### Notes:
+- Gross has a high correlation with Budget and Votes
 
 
 
 ### Scatter Plot between Gross vs Budget
-![](http://localhost:8888/view/Repositorios%20Github/Repos_Proyectos%20en%20Proceso/Project_EDA_Python/img/scatter_buget_gross.jpg)
-
+![](https://github.com/NicolasKlaver/Project_EDA_Python/blob/main/img/scatter_buget_gross.jpg)
 ##### Notes:
+- We see a positive correlation between Budget and Gross
 
 
 
